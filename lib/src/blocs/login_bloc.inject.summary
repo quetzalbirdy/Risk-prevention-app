@@ -1,0 +1,34 @@
+{
+  "asset": "asset:nuevo_riesgos/lib/src/blocs/login_bloc.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "LoginBloc",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:nuevo_riesgos/lib/src/blocs/login_bloc.dart#LoginBloc",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/resources/repositorio.dart#Repository",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

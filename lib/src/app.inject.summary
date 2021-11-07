@@ -1,0 +1,69 @@
+{
+  "asset": "asset:nuevo_riesgos/lib/src/app.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "MyApp",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:nuevo_riesgos/lib/src/app.dart#MyApp",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/blocs/obras_bloc.dart#ObrasBloc",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/blocs/forms_bloc.dart#FormsBloc",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/blocs/incidentes_bloc.dart#IncidentesBloc",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/blocs/login_bloc.dart#LoginBloc",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/blocs/medios_bloc.dart#MediosBloc",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/blocs/mensajes_bloc.dart#MensajesBloc",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

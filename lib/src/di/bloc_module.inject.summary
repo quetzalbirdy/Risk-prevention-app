@@ -1,0 +1,182 @@
+{
+  "asset": "asset:nuevo_riesgos/lib/src/di/bloc_module.dart",
+  "summary": {
+    "injector": [],
+    "module": [
+      {
+        "name": "BlocModule",
+        "providers": [
+          {
+            "name": "client",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:http/lib/src/client.dart#Client",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": true,
+            "asynchronous": false,
+            "dependencies": []
+          },
+          {
+            "name": "serviciosConecta",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/resources/proveedor_servicio_obras.dart#ServiciosConecta",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": true,
+            "asynchronous": false,
+            "dependencies": [
+              {
+                "lookupKey": {
+                  "root": "asset:http/lib/src/client.dart#Client",
+                  "qualifier": null
+                },
+                "isProvider": false
+              }
+            ]
+          },
+          {
+            "name": "repository",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/resources/repositorio.dart#Repository",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": true,
+            "asynchronous": false,
+            "dependencies": [
+              {
+                "lookupKey": {
+                  "root": "asset:nuevo_riesgos/lib/src/resources/proveedor_servicio_obras.dart#ServiciosConecta",
+                  "qualifier": null
+                },
+                "isProvider": false
+              }
+            ]
+          },
+          {
+            "name": "obraBloc",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/blocs/bloc_base.dart#BlocBase",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": [
+              {
+                "lookupKey": {
+                  "root": "asset:nuevo_riesgos/lib/src/resources/repositorio.dart#Repository",
+                  "qualifier": null
+                },
+                "isProvider": false
+              }
+            ]
+          },
+          {
+            "name": "formsBloc",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/blocs/bloc_base.dart#BlocBase",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": [
+              {
+                "lookupKey": {
+                  "root": "asset:nuevo_riesgos/lib/src/resources/repositorio.dart#Repository",
+                  "qualifier": null
+                },
+                "isProvider": false
+              }
+            ]
+          },
+          {
+            "name": "incidentesBloc",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/blocs/bloc_base.dart#BlocBase",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": [
+              {
+                "lookupKey": {
+                  "root": "asset:nuevo_riesgos/lib/src/resources/repositorio.dart#Repository",
+                  "qualifier": null
+                },
+                "isProvider": false
+              }
+            ]
+          },
+          {
+            "name": "mediosBloc",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/blocs/bloc_base.dart#BlocBase",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": [
+              {
+                "lookupKey": {
+                  "root": "asset:nuevo_riesgos/lib/src/resources/repositorio.dart#Repository",
+                  "qualifier": null
+                },
+                "isProvider": false
+              }
+            ]
+          },
+          {
+            "name": "mensajesBloc",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/blocs/bloc_base.dart#BlocBase",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": [
+              {
+                "lookupKey": {
+                  "root": "asset:nuevo_riesgos/lib/src/resources/repositorio.dart#Repository",
+                  "qualifier": null
+                },
+                "isProvider": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "injectable": []
+  }
+}

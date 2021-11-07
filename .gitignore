@@ -26,10 +26,9 @@ lib/src/resources/constantes.dart
 
 # Flutter/Dart/Pub related
 **/doc/api/
-/ios/Flutter/
-/ios/Pods/
+ios/Pods
+ios/Flutter/
 **/ios/Flutter/.last_build_id
-**/ios/Pods/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies

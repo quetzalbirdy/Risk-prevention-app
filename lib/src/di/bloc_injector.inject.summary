@@ -1,0 +1,45 @@
+{
+  "asset": "asset:nuevo_riesgos/lib/src/di/bloc_injector.dart",
+  "summary": {
+    "injector": [
+      {
+        "name": "BlocInjector",
+        "providers": [
+          {
+            "name": "app",
+            "kind": "getter",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/app.dart#MyApp",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          },
+          {
+            "name": "repository",
+            "kind": "getter",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:nuevo_riesgos/lib/src/resources/repositorio.dart#Repository",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          }
+        ],
+        "modules": [
+          "asset:nuevo_riesgos/lib/src/di/bloc_module.dart#BlocModule"
+        ]
+      }
+    ],
+    "module": [],
+    "injectable": []
+  }
+}
